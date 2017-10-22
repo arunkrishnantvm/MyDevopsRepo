@@ -6,7 +6,7 @@ label "master"
 
 stages{
     stage("automatic execution"){
-     step{
+     steps{
 
 sh(script:'echo "Is it working"')
 sh(script:'echo "yes, it is working"')
